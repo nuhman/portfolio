@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Nuhman - Portfolio</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="https://kit.fontawesome.com/b2b68c3a7f.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175514325-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175514325-1');
+    </script>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <section class="title">
+                <img alt="app-icon" src="https://image.flaticon.com/icons/svg/2811/2811184.svg" />
+                <a href="./index.html"><span class="firstname">Muhammed</span> Nuhman.</a>
+            </section>
+            <nav class="links">
+                <span class="link active"><a href="#portfolio"
+                        onclick="logEvents('header', 'portfolio')">Portfolio</a></span>
+                <span class="link active"><a
+                        href="mailto:nuhman7@outlook.com?subject=Let's connect&body=Hi there, shoutout from the portfolio page"
+                        onclick="logEvents('header', 'contact')">Contact Me</a></span></nav>
+        </header>
+
+        <div class="hero">
+            <div class="intro">
+                <div class="intro-main">
+                    <h3>Web & Mobile Developer</h3>
+                </div>
+                <div class="intro-subtitle">
+                    <p>Passionate developer and sometimes designer of internet spaces</p>
+                </div>
+                <div class="action-btn-group">
+                    <a href="#portfolio" class="btn round-btn portfolio-btn"
+                        onclick="logEvents('hero', 'portfolio')">See Portfolio</a>
+                    <a href="mailto:nuhman7@outlook.com?subject=Let's connect&body=Hi there, shoutout from the portfolio page"
+                        class="btn transparent-btn"
+                        onclick="logEvents('hero', 'contact')">Let's Connect</a>
+                </div>
+            </div>
+            <div class="hero-illustration">
+            </div>
+        </div>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/muhammed-nuhman/" 
+            onclick="logEvents('social', 'linkedin')" 
+            target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:nuhman7@outlook.com?subject=Let's connect&body=Hi there, shoutout from the portfolio page" 
+            onclick="logEvents('social', 'mail')" 
+                target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/nuhman" 
+            onclick="logEvents('social', 'github')" 
+            target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://stackoverflow.com/story/nuhman" 
+            onclick="logEvents('social', 'stackoverflow')" 
+            target="_blank"><i class="fab fa-stack-overflow"></i></a>
+        </div>
+
+        <div class="portfolio" id="portfolio">
+            <h3>Portfolio</h3>
+
+            <div class="grid-row">
+                <div class="grid-item">
+                    <a class="wrapping-link" href="https://github.com/nuhman/Talk" 
+                    onclick="logEvents('portfolio', 'talk')" 
+                    target="_blank"></a>
+                    <div class="grid-item-wrapper" style="background-image: url('./images/talk_collage.jpg');">
+                        <div class="grid-item-container">
+                            <div class="grid-image-top">
+                                <span class="centered project-image-bg">
+                                    <img
+                                        src="https://asmaaamerdotcom.files.wordpress.com/2020/01/artboard-e28093-1-1.png?w=768&h=576&crop=1" />
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <h4>blogging android app</h4>
+                </div>
+                <div class="grid-item">
+                    <a class="wrapping-link" href="https://elnino-945c4.firebaseapp.com/" 
+                    onclick="logEvents('portfolio', 'buzzle')" 
+                    target="_blank"></a>
+                    <div class="grid-item-wrapper" style="background-image: url('./images/buzzle_collage.jpg');">
+                        <div class="grid-item-container">
+                            <div class="grid-image-top">
+                                <span class="centered project-image-bg"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <h4>Buzzle: Multi-player Quiz app</h4>
+                </div>
+                <div class="grid-item">
+                    <a class="wrapping-link" href="http://codepen.io/Nuhman/full/aWYvjO" 
+                    onclick="logEvents('portfolio', 'pomodoro')" 
+                    target="_blank"></a>
+                    <div class="grid-item-wrapper" style="background-image: url('./images/pomodoro_timer.png');">
+                        <div class="grid-item-container">
+                            <div class="grid-image-top">
+                                <span class="centered project-image-bg"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <h4>pomodoro productivity timer</h4>
+                </div>
+                <div class="grid-item">
+                    <a class="wrapping-link" href="http://practical-wilson-78fe74.netlify.com/" 
+                    onclick="logEvents('portfolio', 'alma')" 
+                    target="_blank"></a>
+                    <div class="grid-item-wrapper" style="background-image: url('./images/alma.png');">
+                        <div class="grid-item-container">
+                            <div class="grid-image-top">
+                                <span class="centered project-image-bg"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <h4>alma: movie database</h4>
+                </div>
+                <div class="grid-item">
+                    <a class="wrapping-link" href="https://lyonleds.vercel.app/" 
+                    onclick="logEvents('portfolio', 'lyon')" 
+                    target="_blank"></a>
+                    <div class="grid-item-wrapper" style="background-image: url('./images/lyon.png');">
+                        <div class="grid-item-container">
+                            <div class="grid-image-top">
+                                <span class="centered project-image-bg"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <h4>lyon led: responsive landing page</h4>
+                </div>
+                <div class="grid-item">
+                    <a class="wrapping-link" href="https://toxic.now.sh/" 
+                    onclick="logEvents('portfolio', 'toxic')" 
+                    target="_blank"></a>
+                    <div class="grid-item-wrapper" style="background-image: url('./images/toxic.jpg');">
+                        <div class="grid-item-container">
+                            <div class="grid-image-top">
+                                <span class="centered project-image-bg"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <h4>pubg score tracker for tournaments</h4>
+                </div>
+                <div class="grid-item">
+                    <a class="wrapping-link" href="#" 
+                    onclick="logEvents('portfolio', 'playmaker')" 
+                    target="_blank"></a>
+                    <div class="grid-item-wrapper"
+                        style="background-image: url('https://asmaaamerdotcom.files.wordpress.com/2019/11/artboard-e28093-1-1.png?w=768&h=576&crop=1');">
+                        <div class="grid-item-container">
+                            <div class="grid-image-top">
+                                <span class="centered project-image-bg"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <h4>playmaker: football themed shopping site</h4>
+                </div>
+                <div class="grid-item">
+                    <a class="wrapping-link" href="https://react-nvafvp.stackblitz.io/" 
+                    onclick="logEvents('portfolio', 'nanos')" 
+                    target="_blank"></a>
+                    <div class="grid-item-wrapper" style="background-image: url('./images/nanos.png');">
+                        <div class="grid-item-container">
+                            <div class="grid-image-top">
+                                <span class="centered project-image-bg"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <h4>nanos: url shortener</h4>
+                </div>
+            </div>
+
+            <div class="action-btn-footer">
+                <a href="mailto:nuhman7@outlook.com?subject=Let's connect&body=Hi there, shoutout from the portfolio page" 
+                    onclick="logEvents('footer', 'contact')" 
+                    class="btn round-btn portfolio-btn">Let's Connect</a>
+            </div>
+
+        </div>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/muhammed-nuhman/" 
+            onclick="logEvents('social', 'linkedin')" 
+            target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:nuhman7@outlook.com?subject=Let's connect&body=Hi there, shoutout from the portfolio page" 
+            onclick="logEvents('social', 'mail')" 
+                target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/nuhman" 
+            onclick="logEvents('social', 'github')" 
+            target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://stackoverflow.com/story/nuhman" 
+            onclick="logEvents('social', 'stackoverflow')" 
+            target="_blank"><i class="fab fa-stack-overflow"></i></a>
+        </div>
+
+
+        <div class="footer">
+
+            <span>Icons made by <a href="https://www.flaticon.com/authors/ultimatearm" 
+                onclick="logEvents('attribution', 'ultimatearm')"
+                    title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" 
+                    onclick="logEvents('attribution', 'flaticon')" 
+                    title="Flaticon">www.flaticon.com</a>
+            </span>
+        </div>
+
+    </div>
+    <script src="./scripts/app.js"></script>
+</body>
+
+</html>
