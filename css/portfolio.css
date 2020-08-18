@@ -1,7 +1,7 @@
 /* PORTFOLIO */
 
 .portfolio {
-    padding: 80px 30px 120px 30px;
+    padding: 80px 30px 80px 30px;
 }
 
 .portfolio h3 {
@@ -45,10 +45,20 @@
     letter-spacing: 2px;
     text-transform: lowercase;
     color: #548aff;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .github-title {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
   }
   
   .grid-row a {
     text-decoration: none;
+    color: #212121;
   }
   
   .wrapping-link {

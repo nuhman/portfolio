@@ -7,6 +7,7 @@
     <title>Muhammed Nuhman - Portfolio</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contact.css">
     <script src="https://kit.fontawesome.com/b2b68c3a7f.js" crossorigin="anonymous"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175514325-1"></script>
@@ -31,7 +32,7 @@
                 <span class="link active"><a href="#portfolio"
                         onclick="logEvents('header', 'portfolio')">Portfolio</a></span>
                 <span class="link active"><a
-                        href="mailto:nuhman7@outlook.com?subject=Let's connect&body=Hi there, shoutout from the portfolio page"
+                        href="#contact"
                         onclick="logEvents('header', 'contact')">Contact Me</a></span></nav>
         </header>
 
@@ -41,19 +42,19 @@
                     <h3>Web & Mobile Developer</h3>
                 </div>
                 <div class="intro-subtitle">
-                    <p>Passionate developer and sometimes designer of internet spaces</p>
+                    <p>A passionate developer and sometimes designer of internet spaces, I focus on creating beautiful and intuitive user experiences. </p>
                 </div>
                 <div class="action-btn-group">
                     <a href="#portfolio" class="btn round-btn portfolio-btn"
-                        onclick="logEvents('hero', 'portfolio')">See Portfolio</a>
-                    <a href="mailto:nuhman7@outlook.com?subject=Let's connect&body=Hi there, shoutout from the portfolio page"
+                        onclick="logEvents('hero', 'portfolio')">See Projects</a>
+                    <a href="#contact"
                         class="btn transparent-btn"
                         onclick="logEvents('hero', 'contact')">Let's Connect</a>
                 </div>
             </div>
             <div class="hero-illustration">
             </div>
-        </div>
+        </div>        
 
         <div class="social">
             <a href="https://www.linkedin.com/in/muhammed-nuhman/" 
@@ -69,6 +70,10 @@
             <a href="https://stackoverflow.com/story/nuhman" 
             onclick="logEvents('social', 'stackoverflow')" 
             target="_blank"><i class="fab fa-stack-overflow"></i></a>
+        </div>
+
+        <div class="resume">
+            <a class="btn round-btn portfolio-btn" href="./files/Muhammed_Nuhman_Resume.pdf" onclick="logEvents('resume', 'social')" target="_blank">View Resume</a>
         </div>
 
         <div class="portfolio" id="portfolio">
@@ -89,8 +94,14 @@
                             </div>
 
                         </div>
+                    </div>                    
+                    <div class="github-title">
+                        <a href="https://github.com/nuhman/talk" 
+                            onclick="logEvents('social', 'github')" 
+                            target="_blank"><i class="fab fa-github"></i>                            
+                        </a>
+                        <h4>blogging android app</h4>
                     </div>
-                    <h4>blogging android app</h4>
                 </div>
                 <div class="grid-item">
                     <a class="wrapping-link" href="https://elnino-945c4.firebaseapp.com/" 
@@ -104,7 +115,13 @@
 
                         </div>
                     </div>
-                    <h4>Buzzle: Multi-player Quiz app</h4>
+                    <div class="github-title">
+                        <a href="https://github.com/nuhman" 
+                            onclick="logEvents('social', 'github')" 
+                            target="_blank"><i class="fab fa-github"></i>                            
+                        </a>
+                        <h4>Buzzle: Multi-player Quiz app</h4>
+                    </div>                    
                 </div>
                 <div class="grid-item">
                     <a class="wrapping-link" href="http://codepen.io/Nuhman/full/aWYvjO" 
@@ -118,7 +135,13 @@
 
                         </div>
                     </div>
-                    <h4>pomodoro productivity timer</h4>
+                    <div class="github-title">
+                        <a href="https://github.com/nuhman/pomodoro-timer" 
+                            onclick="logEvents('social', 'github')" 
+                            target="_blank"><i class="fab fa-github"></i>                            
+                        </a>
+                        <h4>pomodoro productivity timer</h4>
+                    </div>                    
                 </div>
                 <div class="grid-item">
                     <a class="wrapping-link" href="http://practical-wilson-78fe74.netlify.com/" 
@@ -132,7 +155,13 @@
 
                         </div>
                     </div>
-                    <h4>alma: movie database</h4>
+                    <div class="github-title">
+                        <a href="https://github.com/nuhman/alma" 
+                            onclick="logEvents('social', 'github')" 
+                            target="_blank"><i class="fab fa-github"></i>                            
+                        </a>
+                        <h4>alma: movie database</h4>
+                    </div>                    
                 </div>
                 <div class="grid-item">
                     <a class="wrapping-link" href="https://lyonleds.vercel.app/" 
@@ -146,7 +175,13 @@
 
                         </div>
                     </div>
-                    <h4>lyon led: responsive landing page</h4>
+                    <div class="github-title">
+                        <a href="https://github.com/nuhman" 
+                            onclick="logEvents('social', 'github')" 
+                            target="_blank"><i class="fab fa-github"></i>                            
+                        </a>
+                        <h4>leds responsive landing page</h4>
+                    </div>                    
                 </div>
                 <div class="grid-item">
                     <a class="wrapping-link" href="https://toxic.now.sh/" 
@@ -160,7 +195,13 @@
 
                         </div>
                     </div>
-                    <h4>pubg score tracker for tournaments</h4>
+                    <div class="github-title">
+                        <a href="https://github.com/nuhman" 
+                            onclick="logEvents('social', 'github')" 
+                            target="_blank"><i class="fab fa-github"></i>                            
+                        </a>
+                        <h4>pubg clan score tracker</h4>
+                    </div>                    
                 </div>
                 <div class="grid-item">
                     <a class="wrapping-link" href="#" 
@@ -175,7 +216,13 @@
 
                         </div>
                     </div>
-                    <h4>playmaker: football themed shopping site</h4>
+                    <div class="github-title">
+                        <a href="https://github.com/nuhman" 
+                            onclick="logEvents('social', 'github')" 
+                            target="_blank"><i class="fab fa-github"></i>                            
+                        </a>
+                        <h4>playmaker: football themed shopping site</h4>
+                    </div>                    
                 </div>
                 <div class="grid-item">
                     <a class="wrapping-link" href="https://react-nvafvp.stackblitz.io/" 
@@ -189,16 +236,37 @@
 
                         </div>
                     </div>
-                    <h4>nanos: url shortener</h4>
+                    <div class="github-title">
+                        <a href="https://github.com/nuhman/nanos" 
+                            onclick="logEvents('social', 'github')" 
+                            target="_blank"><i class="fab fa-github"></i>                            
+                        </a>
+                        <h4>nanos: url shortener</h4>
+                    </div>                    
                 </div>
             </div>
 
-            <div class="action-btn-footer">
-                <a href="mailto:nuhman7@outlook.com?subject=Let's connect&body=Hi there, shoutout from the portfolio page" 
-                    onclick="logEvents('footer', 'contact')" 
-                    class="btn round-btn portfolio-btn">Let's Connect</a>
-            </div>
+        </div>        
 
+        <div class="contact" id="contact">
+            <h3>Contact Me</h3>
+            <div class="contact-form">
+                <form id="my-form"
+                    class="my-form"
+                    action="https://formspree.io/xzbjqzqb"
+                    method="POST"
+                >
+                    <label>Email where I can reach you:</label>
+                    <input type="email" name="email" required />
+                    <label>Message:</label>
+                    <textarea id="message" name="message" required rows="4" cols="50"></textarea>        
+                    <div class="action-btn-group">
+                        <button  class="btn round-btn portfolio-btn" id="my-form-button">Let's Connect</button>
+                        <a class="btn transparent-btn" href="./files/Muhammed_Nuhman_Resume.pdf" onclick="logEvents('resume', 'form')" target="_blank">View Resume</a>
+                    </div>                                
+                    <p id="my-form-status"></p>
+                </form>
+            </div>
         </div>
 
         <div class="social">
@@ -222,8 +290,10 @@
 
             <span>Icons made by <a href="https://www.flaticon.com/authors/ultimatearm" 
                 onclick="logEvents('attribution', 'ultimatearm')"
+                    target="_blank"
                     title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" 
                     onclick="logEvents('attribution', 'flaticon')" 
+                    target="_blank"
                     title="Flaticon">www.flaticon.com</a>
             </span>
         </div>

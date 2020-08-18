@@ -1,0 +1,75 @@
+.contact {
+    padding: 80px 30px 80px 30px;
+    background: #fff;
+}
+
+.contact h3 {
+    font-size: 24px;
+    color: #4d4e55;            
+    text-align: center;
+    letter-spacing: 3px;    
+    padding-bottom: 10px;
+}
+
+.contact h3::after {
+    border-bottom: 1px solid #548aff;
+    content: " ";
+    display: block;
+    margin: 24px auto 60px;
+    position: relative;
+    width: 60px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form .my-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.contact-form .my-form label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #6e7279;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.contact-form .my-form #my-form-button {    
+    width: 200px;
+    text-transform: uppercase;   
+    border-radius: 0px; 
+}
+
+.contact-form .my-form input[type='email'] {
+    border: 0;
+    outline: 0;
+    padding: 6px 12px;
+    letter-spacing: 2.4px;
+    border: 1px solid #6e7279;
+  }
+
+  .contact-form .my-form #message {
+    resize:vertical;
+    padding: 15px;
+    outline: none;
+    border: 0;
+    border: 1px solid #6e7279;
+  }
+
+  .contact-form .my-form #my-form-status {
+      font-size: 12px;
+      color: #6e7279;
+      line-height: 30px;      
+  }
+
+  @media(max-width: 410px) {
+    .contact-form .my-form {        
+        width: 300px;
+    }
+  }

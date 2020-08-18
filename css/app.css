@@ -62,7 +62,7 @@ header .title .firstname {
 	flex-wrap: wrap;	
     padding-bottom: 40px;
     min-height: 65vh;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 .intro {
 	padding: 25px;
@@ -133,6 +133,9 @@ header .title .firstname {
 	margin-top: 30px;
 }
 
+.resume a {
+	border-radius: 0px;
+}
 
 /* SOCIAL */
 
@@ -161,6 +164,19 @@ header .title .firstname {
 
 .footer span {
     font-size: 12px;
+}
+
+.resume {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 15vh;
+    background: #fff;
+    padding: 30px 0px;
+}
+
+.resume a {
+	margin-top: 0;
 }
 
 
